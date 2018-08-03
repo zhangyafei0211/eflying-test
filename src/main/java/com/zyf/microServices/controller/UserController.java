@@ -11,7 +11,7 @@ public class UserController {
 	
 	@RequestMapping("/doGetRealIp.do")
     public String doGetRealIp(HttpServletRequest req, HttpServletResponse resp){
-    	
+ 		System.out.println("开始。。。。。。");    	
 		String ip = "";
 		try {
 			//ip = HttpUtil.sendRequest("http://pv.sohu.com/cityjson?ie=utf-8", "", "");
